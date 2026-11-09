@@ -4,10 +4,10 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Privacy Policy — BiblePulse</title>
-<meta name="description" content="How BiblePulse handles your data. Short version: almost everything stays on your phone." />
+<meta name="description" content="How BiblePulse collects, uses, and protects your data." />
 <meta name="theme-color" content="#FFF8EE" media="(prefers-color-scheme: light)" />
 <meta name="theme-color" content="#0A0A0A" media="(prefers-color-scheme: dark)" />
-<link rel="icon" href="/icon.png" />
+<link rel="icon" href="icon.png" />
 <style>
   :root {
     --bg: #FFF8EE;
@@ -31,11 +31,11 @@
   html, body { margin: 0; padding: 0; background: var(--bg); color: var(--ink); }
   body {
     font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
-    font-size: 17px;
+    font-size: 16px;
     line-height: 1.6;
     -webkit-font-smoothing: antialiased;
   }
-  .wrap { max-width: 680px; margin: 0 auto; padding: 56px 24px 96px; }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 56px 24px 96px; }
   .back {
     display: inline-block;
     font-size: 14px;
@@ -47,7 +47,7 @@
   h1 {
     font-family: ui-serif, Georgia, "Times New Roman", serif;
     font-weight: 700;
-    font-size: 38px;
+    font-size: 36px;
     line-height: 1.15;
     letter-spacing: -0.02em;
     margin: 0 0 12px;
@@ -58,21 +58,41 @@
     font-weight: 700;
     font-size: 22px;
     letter-spacing: -0.01em;
-    margin: 40px 0 10px;
+    margin: 44px 0 10px;
   }
-  p { margin: 0 0 14px; }
+  h3 {
+    font-weight: 600;
+    font-size: 17px;
+    margin: 24px 0 8px;
+  }
+  p, li { margin: 0 0 12px; }
+  ul, ol { padding-left: 22px; margin: 0 0 14px; }
+  li { margin-bottom: 6px; }
   a { color: var(--accent); text-decoration: none; }
   a:hover { text-decoration: underline; }
   .lede {
-    font-size: 18px;
+    font-size: 17px;
     color: var(--ink-soft);
-    padding: 20px 22px;
+    padding: 18px 22px;
     background: var(--card);
     border: 1px solid var(--line);
     border-radius: 14px;
-    margin: 0 0 40px;
+    margin: 0 0 32px;
   }
   .lede strong { color: var(--ink); }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 0 20px;
+    font-size: 14.5px;
+  }
+  th, td {
+    text-align: left;
+    padding: 10px 12px;
+    border-bottom: 1px solid var(--line);
+    vertical-align: top;
+  }
+  th { font-weight: 600; color: var(--ink-soft); }
   footer {
     margin-top: 64px;
     padding-top: 24px;
@@ -83,116 +103,289 @@
   footer a { color: var(--ink-soft); margin-right: 20px; }
   @media (max-width: 480px) {
     .wrap { padding: 40px 20px 72px; }
-    h1 { font-size: 30px; }
+    h1 { font-size: 28px; }
+    table { font-size: 13.5px; }
+    th, td { padding: 8px 8px; }
   }
 </style>
 </head>
 <body>
   <main class="wrap">
-    <a href="/" class="back">&larr; BiblePulse</a>
+    <a href="./" class="back">&larr; BiblePulse</a>
 
     <h1>Privacy Policy</h1>
-    <p class="updated">Last updated: November 2026</p>
+    <p class="updated">Effective date: November 8, 2026. Last updated: November 8, 2026.</p>
 
     <p class="lede">
-      <strong>The short version:</strong> your reading, your notes, your
-      highlights, your streak — all of it lives on your phone and nowhere
-      else. What we do collect (to run subscriptions and improve the app)
-      is listed in plain English below.
+      <strong>Short version:</strong> your reading, notes, highlights, streak, and preferences stay on
+      your device. We use one third party, Superwall, to run our subscription paywall — Superwall
+      receives a limited, anonymous set of information described below. We don't sell your data and
+      we don't share it with advertisers.
     </p>
 
-    <h2>What stays on your phone</h2>
+    <h2>1. Who we are</h2>
     <p>
-      Your streak, bookmarks, highlights, notes, chosen translation, reading
-      position, text size, haptic preferences, and reminder times are stored
-      locally on your device. We never send them to a server. If you delete
-      the app, they go with it.
+      This Privacy Policy describes how BiblePulse ("BiblePulse," "we," "us," or "our")
+      collects, uses, and discloses information when you use our mobile application
+      ("App") and this website ("Site"). BiblePulse is operated as an independent
+      developer. You can reach us at
+      <a href="mailto:BiblePulseApp@outlook.com">BiblePulseApp@outlook.com</a>.
+    </p>
+    <p>
+      For users in the European Economic Area, United Kingdom, and Switzerland, BiblePulse
+      is the data controller for personal data processed in connection with the App and Site.
     </p>
 
-    <h2>What we collect, and why</h2>
+    <h2>2. Information we collect</h2>
+
+    <h3>2.1 Information stored on your device only</h3>
     <p>
-      BiblePulse uses a service called <strong>Superwall</strong> to show
-      subscription offers and run A/B tests on the trial screen. Through
-      Superwall we receive:
+      The following stays on your phone and never leaves it unless you choose to export or
+      share it:
     </p>
     <ul>
-      <li>An anonymous device identifier (not tied to your name, email, or Apple ID)</li>
-      <li>Basic device info: OS version, model, country, language, time zone</li>
-      <li>When a paywall is shown, dismissed, or purchased</li>
-      <li>Subscription status, so the paywall doesn't show if you've already subscribed</li>
+      <li>Your reading position, chosen Bible translation, and reading streak</li>
+      <li>Your bookmarks, highlights, and personal notes</li>
+      <li>Your text-size, haptic, keep-awake, and theme preferences</li>
+      <li>Your daily reminder time, if you enable reminders</li>
+      <li>Your onboarding answers (season, biggest obstacle)</li>
+      <li>Your first name and church, if you enter them for prayer attribution</li>
     </ul>
     <p>
-      This is used to render the right offer and nothing else. We do not
-      sell this data, we do not share it with ad networks, and we do not use
-      it to track you across other apps.
-    </p>
-    <p>
-      When you subscribe, Apple handles the purchase and gives us a signed
-      receipt confirming the subscription is active. We never see your
-      payment details — only Apple does.
+      This data is kept in the App's local storage and, for the home-screen widget and Live
+      Activity, in a protected shared container that only our App and widget can read. We do
+      not have access to it. Uninstalling the App deletes it.
     </p>
 
-    <h2>What we don't collect</h2>
+    <h3>2.2 Information processed by Superwall (our paywall provider)</h3>
     <p>
-      We ship with no third-party analytics SDK, no advertising partners, no
-      social-media trackers, and no account system. We can't read what
-      you've highlighted, what notes you've written, or what you're reading
-      — because that data never leaves your phone.
+      We use Superwall, Inc. to render our subscription paywall, run A/B tests, and measure
+      conversion. When the paywall is loaded or interacted with, Superwall receives:
+    </p>
+    <ul>
+      <li>An anonymous device identifier generated by Superwall (not your Apple ID, email, or name)</li>
+      <li>Device model, operating system and version, locale, country, time zone, and app version</li>
+      <li>Paywall events (shown, dismissed, product selected, purchase started, purchase completed, purchase failed)</li>
+      <li>Your current subscription status (so the paywall isn't shown to active subscribers)</li>
+      <li>Approximate IP-derived location (country level), discarded after processing</li>
+    </ul>
+    <p>
+      Superwall processes this information under its own privacy policy, available at
+      <a href="https://superwall.com/privacy" target="_blank" rel="noopener">superwall.com/privacy</a>.
+      Superwall acts as our data processor; it does not sell this data or use it to serve
+      third-party advertising.
     </p>
 
-    <h2>Notifications</h2>
+    <h3>2.3 Information processed by Apple and Google</h3>
     <p>
-      If you turn on the daily verse reminder, your phone schedules the
-      notification locally. Nothing about which verse, which time, or that
-      you're using BiblePulse leaves your device.
+      When you subscribe, your payment is processed by Apple (through the App Store) or
+      Google (through Google Play). We never see your payment card or bank details. We
+      receive a signed receipt confirming the subscription is active, which is used to
+      unlock premium features. Apple's and Google's handling of your purchase is governed
+      by
+      <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">Apple's Privacy Policy</a>
+      and
+      <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's Privacy Policy</a>
+      respectively.
+    </p>
+    <p>
+      Crash logs and diagnostic reports may also be collected by Apple or Google at the
+      operating-system level if you have opted in through your device settings. That data
+      flows to Apple or Google, not to us.
     </p>
 
-    <h2>Widgets and Live Activities</h2>
+    <h3>2.4 Information we do not collect</h3>
+    <ul>
+      <li>We do not operate user accounts in version 1 of the App and have no way to identify you by name or email through the App</li>
+      <li>We do not use third-party analytics SDKs (such as Google Analytics, Mixpanel, Firebase Analytics, or Amplitude) outside of what is described above for Superwall</li>
+      <li>We do not use advertising SDKs, do not serve ads, and do not share any data with advertising networks</li>
+      <li>We do not track you across other apps or websites and do not request the App Tracking Transparency permission</li>
+      <li>We do not read the content of your notes, highlights, or bookmarks</li>
+    </ul>
+
+    <h2>3. How we use information</h2>
+    <p>We use the information described above only to:</p>
+    <ul>
+      <li>Provide the App's core features (reading, streak, notes, reminders)</li>
+      <li>Render, test, and measure the subscription paywall and win-back offer</li>
+      <li>Process your subscription and confirm your entitlement</li>
+      <li>Respond to your support requests</li>
+      <li>Detect and prevent fraud, abuse, and technical issues</li>
+      <li>Comply with legal obligations</li>
+    </ul>
     <p>
-      The Verse of the Day and Streak widgets read a small snapshot the app
-      writes into a protected shared storage area on your phone. That
-      snapshot stays on your device.
+      We do not use your information to make automated decisions that produce legal or
+      similarly significant effects on you.
     </p>
 
-    <h2>Crash reports and diagnostics</h2>
+    <h2>4. Legal bases (EEA, UK, Switzerland)</h2>
     <p>
-      We do not collect our own crash reports or usage telemetry. Apple may
-      collect basic crash diagnostics at the operating-system level if
-      you've opted in with your device settings — that's between you and
-      Apple, not us.
+      If you are located in the European Economic Area, United Kingdom, or Switzerland, we
+      rely on the following legal bases under the GDPR:
+    </p>
+    <ul>
+      <li><strong>Performance of a contract</strong> — to provide the App and the subscription you've purchased</li>
+      <li><strong>Legitimate interests</strong> — to measure paywall performance, prevent abuse, and improve the App, provided our interests are not overridden by your rights</li>
+      <li><strong>Consent</strong> — where required, such as for sending push notifications you've enabled</li>
+      <li><strong>Legal obligation</strong> — where we must comply with applicable law</li>
+    </ul>
+
+    <h2>5. Sharing and disclosure</h2>
+    <p>We share limited information only with:</p>
+    <table>
+      <thead>
+        <tr><th>Recipient</th><th>Purpose</th><th>Legal basis</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Superwall, Inc.</td>
+          <td>Paywall rendering, A/B testing, conversion analytics</td>
+          <td>Legitimate interests; performance of contract</td>
+        </tr>
+        <tr>
+          <td>Apple Inc. / Google LLC</td>
+          <td>Payment processing, subscription management, app distribution</td>
+          <td>Performance of contract</td>
+        </tr>
+        <tr>
+          <td>Email providers</td>
+          <td>Processing your support emails</td>
+          <td>Performance of contract; legitimate interests</td>
+        </tr>
+        <tr>
+          <td>Authorities</td>
+          <td>When required by law, subpoena, or to protect rights and safety</td>
+          <td>Legal obligation</td>
+        </tr>
+      </tbody>
+    </table>
+    <p>
+      <strong>We do not sell your personal information.</strong> We do not share personal
+      information with third parties for their own marketing purposes. If BiblePulse is ever
+      involved in a merger, acquisition, or sale of assets, you will be notified in-app
+      before any transfer, and the acquirer will be bound to terms at least as protective as
+      this policy.
     </p>
 
-    <h2>Children</h2>
+    <h2>6. Data retention</h2>
+    <ul>
+      <li>On-device data is kept until you delete it or uninstall the App.</li>
+      <li>Superwall event data is retained by Superwall according to its own policy, generally
+          up to 25 months, after which it is aggregated or deleted.</li>
+      <li>Support emails are retained for up to 3 years for service-quality and legal purposes.</li>
+      <li>Purchase receipts are retained as required for accounting, tax, and audit purposes
+          (typically 7 years).</li>
+    </ul>
+
+    <h2>7. Security</h2>
     <p>
-      BiblePulse is appropriate for all ages. We don't knowingly collect
-      personal data from anyone, including children under 13.
+      We apply reasonable technical and organizational measures to protect information from
+      unauthorized access, including HTTPS for all network traffic, use of iOS and Android
+      sandboxing for on-device data, and access controls on any support email we store. No
+      system is perfectly secure; you use the App at your own risk.
     </p>
 
-    <h2>Your rights</h2>
+    <h2>8. International data transfers</h2>
     <p>
-      Because we don't hold a profile tied to you, there's generally no
-      personal data to export or delete on our side. If you want to reset
-      Superwall's anonymous identifier, deleting and reinstalling the app
-      will do that.
+      Superwall is based in the United States. If you access the App from the EEA, UK, or
+      Switzerland, information processed by Superwall may be transferred to the United
+      States. Such transfers rely on the European Commission's Standard Contractual
+      Clauses or equivalent safeguards. A copy of the safeguards can be requested at
+      <a href="mailto:BiblePulseApp@outlook.com">BiblePulseApp@outlook.com</a>.
     </p>
 
-    <h2>Changes to this policy</h2>
+    <h2>9. Children</h2>
     <p>
-      If this policy ever changes materially — for example, if we add an
-      opt-in account system or a new third-party service — we'll notify you
-      in the app before anything new begins.
+      BiblePulse is not directed to children under 13 (or the equivalent age of digital
+      consent in your jurisdiction — 16 in some EEA countries, 13 in the US under COPPA).
+      We do not knowingly collect personal information from children. If you believe a
+      child has provided us personal information, contact
+      <a href="mailto:BiblePulseApp@outlook.com">BiblePulseApp@outlook.com</a> and we will delete it.
     </p>
 
-    <h2>Contact</h2>
+    <h2>10. Your rights</h2>
+
+    <h3>10.1 Everyone</h3>
     <p>
-      Questions? Email <a href="mailto:hello@biblepulse.app">hello@biblepulse.app</a>.
-      We read everything.
+      Because we do not operate user accounts, the primary way to exercise your rights over
+      on-device data is through the App itself: you can view, edit, and delete notes,
+      highlights, bookmarks, and preferences at any time, and uninstalling the App removes
+      all local data.
+    </p>
+    <p>
+      To reset the anonymous Superwall identifier associated with your installation, delete
+      and reinstall the App; a new anonymous identifier will be generated.
+    </p>
+
+    <h3>10.2 EEA, UK, and Switzerland (GDPR)</h3>
+    <p>You have the right to:</p>
+    <ul>
+      <li>Access the personal data we hold about you</li>
+      <li>Correct inaccurate personal data</li>
+      <li>Delete your personal data ("right to be forgotten")</li>
+      <li>Restrict or object to our processing</li>
+      <li>Receive your personal data in a portable format</li>
+      <li>Withdraw consent at any time, where we rely on consent</li>
+      <li>Lodge a complaint with your local data protection authority</li>
+    </ul>
+    <p>
+      To exercise these rights, email
+      <a href="mailto:BiblePulseApp@outlook.com">BiblePulseApp@outlook.com</a> with your request. We
+      will respond within one month.
+    </p>
+
+    <h3>10.3 California (CCPA / CPRA)</h3>
+    <p>California residents have the right to:</p>
+    <ul>
+      <li>Know what categories of personal information we have collected, used, or disclosed</li>
+      <li>Delete personal information we have collected</li>
+      <li>Correct inaccurate personal information</li>
+      <li>Opt out of the sale or sharing of personal information (we do not sell or share for cross-context behavioral advertising)</li>
+      <li>Limit the use of sensitive personal information (we do not collect sensitive categories)</li>
+      <li>Not be discriminated against for exercising these rights</li>
+    </ul>
+    <p>
+      In the preceding 12 months, we have collected the categories listed in Section 2, and
+      disclosed them only to the recipients listed in Section 5. To exercise your rights,
+      email <a href="mailto:BiblePulseApp@outlook.com">BiblePulseApp@outlook.com</a>. We may need to
+      verify your request by asking you to confirm information you provided through the
+      App.
+    </p>
+
+    <h3>10.4 Other jurisdictions</h3>
+    <p>
+      Residents of Virginia, Colorado, Connecticut, Utah, and other states with comparable
+      privacy laws have similar rights of access, correction, deletion, and opt-out. To
+      exercise them, email <a href="mailto:BiblePulseApp@outlook.com">BiblePulseApp@outlook.com</a>.
+    </p>
+
+    <h2>11. Cookies and the Site</h2>
+    <p>
+      This website is served statically through GitHub Pages and does not set first-party
+      cookies, use analytics, or embed advertising. GitHub may collect limited standard
+      server logs (IP address, user agent, request path) for operational and security
+      purposes under
+      <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" target="_blank" rel="noopener">GitHub's Privacy Statement</a>.
+    </p>
+
+    <h2>12. Changes to this policy</h2>
+    <p>
+      We may update this policy to reflect changes in our practices, the App, or applicable
+      law. When we make material changes, we will update the "Last updated" date at the top
+      of this page and, where legally required or where the change materially affects your
+      rights, provide notice in the App before the change takes effect.
+    </p>
+
+    <h2>13. Contact</h2>
+    <p>
+      Questions, requests, or complaints:
+      <a href="mailto:BiblePulseApp@outlook.com">BiblePulseApp@outlook.com</a>.
     </p>
 
     <footer>
-      <a href="/">Home</a>
-      <a href="/terms">Terms</a>
-      <a href="/support">Support</a>
+      <a href="./">Home</a>
+      <a href="terms">Terms</a>
+      <a href="support">Support</a>
     </footer>
   </main>
 </body>
